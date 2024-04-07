@@ -1,0 +1,11 @@
+{
+    "ip" : "127.0.0.1",
+    "userName": "root",
+    "password": "123456",
+    "database": "reservation_system",
+    "port": 3306,
+    "minConnection": 100,
+    "maxConnection": 1000,
+    "timeout": 1000,
+    "maxIdleTime": 5000
+}

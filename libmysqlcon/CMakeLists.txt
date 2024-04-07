@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(libmysqlconnectionpool)
+set(CMAKE_CXX_STANDARD 11)
+include_directories(${INCLUDE})
+set(LIBRARY_OUTPUT_PATH ${STATIC_LIB_PATH})
+aux_source_directory(${PROJECT_SOURCE_DIR} SRC)
+add_library(${STATIC_LIB_NAME} STATIC ${SRC})
